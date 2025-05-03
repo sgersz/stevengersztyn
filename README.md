@@ -38,4 +38,4 @@ Demo repo automating Docker builds for a Flask app using GitHub Actions.
 
 ---
 
-Thanks for visiting my GitHub! I’m always open to new opportunities in cloud infrastructure, security, and identity engineering.
+
