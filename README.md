@@ -1,15 +1,41 @@
-# 👋 Hi, I'm Steven Gersztyn
+# 👋 Hi, I’m Steven Gersztyn
 
-🚀 Cloud Infrastructure & Security Engineer | AWS, Azure, Okta, GitHub | Mentor
+🏗️ **Senior Systems Engineer | Cloud Infrastructure & Security | Identity & Zero Trust | Mentor & Leader**
 
-Welcome to my GitHub portfolio! I’m passionate about building **secure, scalable, cloud-native systems** while making tech approachable for others. From managing AWS and Azure environments, to integrating SSO and identity platforms like Okta, to mentoring engineers in their cloud journey—I love solving problems at the intersection of **cloud, security, and people.**
+With 13+ years of experience architecting, securing, and managing cloud infrastructure across AWS and Azure. I specialize in identity management (Okta, Azure AD), Zero Trust architectures (Zscaler ZPA), and building secure, scalable environments. Passionate about mentoring others, simplifying complex systems, and continuous learning.
 
-## 🔍 What you’ll find here
-- Infrastructure as Code projects (Terraform, CloudFormation, Azure Bicep)
-- Identity and SSO integration examples
-- Automation scripts (PowerShell, Bash, GitHub Actions)
-- Cheat sheets & guides I’ve created to mentor others
+---
 
-More coming soon as I document and share what I’ve learned!
+## 💻 **Featured Projects**
 
-[💼 LinkedIn](https://www.linkedin.com/in/stevengersztyn/)
+🔹 [Homelab 2025](https://github.com/sgersz/homelab2025)  
+A secure, scalable home lab infrastructure combining virtualization, containerization, automation, and Zero Trust networking.
+
+🔹 [Homelab Monitoring](https://github.com/sgersz/homelab-monitoring)  
+Monitoring stack using Prometheus, Grafana, node_exporter, and cAdvisor to visualize system and Docker metrics in real time.
+
+🔹 [Workspace Cost Reduction](https://github.com/sgersz/workspacecostreduction)  
+Cloud cost optimization project migrating from AWS Workspaces to EC2 + Zscaler ZPA, reducing per-user costs by 35%.
+
+🔹 [Simple CI/CD Pipeline](https://github.com/sgersz/simplecicd)  
+Demo repo automating Docker builds for a Flask app using GitHub Actions.
+
+---
+
+## 🎯 **Certifications**
+
+✅ AWS Certified Cloud Practitioner  
+✅ AWS Certified Developer – In Progress  
+✅ AWS Certified Solutions Architect – Planned  
+✅ CyberArk Trustee  
+✅ [more certifications if applicable...]
+
+---
+
+## 🚀 **Connect with me**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/stevengersztyn/)
+
+---
+
+Thanks for visiting my GitHub! I’m always open to new opportunities in cloud infrastructure, security, and identity engineering.
