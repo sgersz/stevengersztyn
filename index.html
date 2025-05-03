@@ -5,18 +5,26 @@
   <title>Steven Gersztyn | Cloud Infrastructure & Security Engineer</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f5f5f5;
-      color: #333;
       margin: 0;
-      padding: 0;
+      background: #121212 url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #f5f5f5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .overlay {
+      background: rgba(0,0,0,0.7);
+      backdrop-filter: blur(4px);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .container {
       max-width: 900px;
-      margin: 0 auto;
+      background: rgba(20,20,20,0.85);
       padding: 2rem;
-      background: #fff;
-      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+      border-radius: 12px;
+      box-shadow: 0 0 40px rgba(0,0,0,0.3);
     }
     img.profile {
       display: block;
@@ -25,32 +33,41 @@
       height: 180px;
       border-radius: 50%;
       object-fit: cover;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
     }
     h1, h2 {
       text-align: center;
       margin: 1rem 0;
+      color: #4cc9f0;
     }
     p.center {
       text-align: center;
       font-size: 1.1rem;
     }
     ul {
-      list-style-type: none;
+      list-style: none;
       padding: 0;
     }
     ul li {
-      background: #f0f0f0;
+      background: rgba(255,255,255,0.05);
       margin: 0.5rem 0;
-      padding: 0.75rem 1rem;
-      border-radius: 8px;
+      padding: 1rem;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
       transition: background 0.3s;
     }
     ul li:hover {
-      background: #e0e0e0;
+      background: rgba(255,255,255,0.1);
+    }
+    ul li img.icon {
+      width: 28px;
+      height: 28px;
+      margin-right: 12px;
+      filter: invert(80%) sepia(20%) saturate(500%) hue-rotate(180deg);
     }
     a {
-      color: #0366d6;
+      color: #5ecbf3;
       text-decoration: none;
       font-weight: bold;
     }
@@ -59,59 +76,59 @@
     }
     hr {
       border: none;
-      border-top: 1px solid #ddd;
+      border-top: 1px solid rgba(255,255,255,0.1);
       margin: 2rem 0;
     }
   </style>
 </head>
 <body>
+  <div class="overlay">
+    <div class="container">
+      <img src="me.png" alt="Steven Gersztyn" class="profile">
 
-  <div class="container">
-    <img src="me.png" alt="Steven Gersztyn" class="profile">
+      <h1>Hi, I’m Steven Gersztyn</h1>
+      <p class="center"><b>Senior Systems Engineer | Cloud Infrastructure & Security | Identity & Zero Trust | Mentor & Leader</b></p>
 
-    <h1>Hi, I’m Steven Gersztyn</h1>
-    <p class="center"><b>Senior Systems Engineer | Cloud Infrastructure & Security | Identity & Zero Trust | Mentor & Leader</b></p>
+      <hr>
 
-    <hr>
+      <p>I’m a cloud infrastructure and security engineer with 13+ years of experience building, securing, and optimizing environments across AWS and Azure. I specialize in identity management (Okta, Azure AD), Zero Trust security (Zscaler ZPA), and simplifying complex systems into resilient, user-focused solutions.</p>
 
-    <p>I’m a cloud infrastructure and security engineer with 13+ years of experience building, securing, and optimizing environments across AWS and Azure. I specialize in identity management (Okta, Azure AD), Zero Trust security (Zscaler ZPA), and simplifying complex systems into resilient, user-focused solutions.</p>
+      <p>I’m passionate about continuous learning, mentoring others, and technical tinkering both at work and in my homelab.</p>
 
-    <p>I’m passionate about continuous learning, mentoring others, and technical tinkering both at work and in my homelab.</p>
+      <h2>Featured Projects</h2>
+      <ul>
+        <li><img src="icons/server.svg" class="icon"><a href="https://github.com/sgersz/homelab-2025">Homelab 2025</a> – Secure, scalable home lab combining virtualization, containers, automation, and Zero Trust.</li>
+        <li><img src="icons/layout-dashboard.svg" class="icon"><a href="https://github.com/sgersz/observability-dashboard">Homelab Monitoring</a> – Real-time system & Docker metrics visualization with Prometheus + Grafana.</li>
+        <li><img src="icons/cloud.svg" class="icon"><a href="https://github.com/sgersz/workspacecostreduction">Workspace Cost Reduction</a> – Cloud cost optimization migrating from AWS Workspaces to EC2 + Zscaler ZPA.</li>
+        <li><img src="icons/flowchart.svg" class="icon"><a href="https://github.com/sgersz/simplecicd">Simple CI/CD Pipeline</a> – Automated Docker builds using GitHub Actions.</li>
+      </ul>
 
-    <h2>Featured Projects</h2>
-    <ul>
-      <li><a href="https://github.com/sgersz/homelab-2025">Homelab 2025</a> – Secure, scalable home lab combining virtualization, containers, automation, and Zero Trust.</li>
-      <li><a href="https://github.com/sgersz/observability-dashboard">Homelab Monitoring</a> – Real-time system & Docker metrics visualization with Prometheus + Grafana.</li>
-      <li><a href="https://github.com/sgersz/workspacecostreduction">Workspace Cost Reduction</a> – Cloud cost optimization migrating from AWS Workspaces to EC2 + Zscaler ZPA.</li>
-      <li><a href="https://github.com/sgersz/simplecicd">Simple CI/CD Pipeline</a> – Automated Docker builds using GitHub Actions.</li>
-    </ul>
+      <h2>Certifications</h2>
+      <ul>
+        <li>AWS Certified Cloud Practitioner</li>
+        <li>AWS Certified Developer – In Progress</li>
+        <li>AWS Certified Solutions Architect – Planned</li>
+        <li>CyberArk Trustee</li>
+      </ul>
 
-    <h2>Certifications</h2>
-    <ul>
-      <li>AWS Certified Cloud Practitioner</li>
-      <li>AWS Certified Developer – In Progress</li>
-      <li>AWS Certified Solutions Architect – Planned</li>
-      <li>CyberArk Trustee</li>
-    </ul>
+      <h2>Interests</h2>
+      <ul>
+        <li>Keyboard building</li>
+        <li>Homelab tinkering</li>
+        <li>Playing classical guitar</li>
+        <li>Reading</li>
+        <li>Spending time with my family</li>
+        <li>Exploring new technologies</li>
+      </ul>
 
-    <h2>Interests</h2>
-    <ul>
-      <li>Keyboard building</li>
-      <li>Homelab tinkering</li>
-      <li>Playing classical guitar</li>
-      <li>Reading</li>
-      <li>Spending time with my family</li>
-      <li>Exploring new technologies</li>
-    </ul>
+      <h2>Connect with Me</h2>
+      <p class="center">
+        <a href="https://www.linkedin.com/in/stevengersztyn/">LinkedIn Profile</a>
+      </p>
 
-    <h2>Connect with Me</h2>
-    <p class="center">
-      <a href="https://www.linkedin.com/in/stevengersztyn/">LinkedIn Profile</a>
-    </p>
-
-    <hr>
-    <p class="center">Thanks for visiting!</p>
+      <hr>
+      <p class="center">Thanks for visiting!</p>
+    </div>
   </div>
-
 </body>
 </html>
