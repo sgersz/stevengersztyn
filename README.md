@@ -8,13 +8,13 @@ With 13+ years of experience architecting, securing, and managing cloud infrastr
 
 ## 💻 **Featured Projects**
 
-🔹 [Homelab 2025](https://github.com/sgersz/homelab2025)  
+🔹 [Homelab 2025](https://github.com/sgersz/homelab-2025)  
 A secure, scalable home lab infrastructure combining virtualization, containerization, automation, and Zero Trust networking.
 
-🔹 [Homelab Monitoring](https://github.com/sgersz/homelab-monitoring)  
+🔹 [Homelab Monitoring](https://github.com/sgersz/observability-dashboard)  
 Monitoring stack using Prometheus, Grafana, node_exporter, and cAdvisor to visualize system and Docker metrics in real time.
 
-🔹 [Workspace Cost Reduction](https://github.com/sgersz/workspacecostreduction)  
+🔹 [Workspace Cost Reduction](https://github.com/sgersz/-workspacecostreduction)  
 Cloud cost optimization project migrating from AWS Workspaces to EC2 + Zscaler ZPA, reducing per-user costs by 35%.
 
 🔹 [Simple CI/CD Pipeline](https://github.com/sgersz/simplecicd)  
