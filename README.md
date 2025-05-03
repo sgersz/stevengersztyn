@@ -28,7 +28,8 @@ Demo repo automating Docker builds for a Flask app using GitHub Actions.
 ✅ AWS Certified Developer – In Progress  
 ✅ AWS Certified Solutions Architect – Planned  
 ✅ CyberArk Trustee  
-✅ [more certifications if applicable...]
+✅ IBM Endpoint Manager 9 TP433ERC/T0S51ERC
+✅ Digium - dCAA
 
 ---
 
