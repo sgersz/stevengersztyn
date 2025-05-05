@@ -2,58 +2,199 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Steven Gersztyn – Cloud Nerd</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>Steven Gersztyn | Cloud Infrastructure & Security Engineer</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Replace favicon.ico with your custom logo if you want -->
+  <style>
+    body {
+      margin: 0;
+      background: #121212 url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #f5f5f5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      scroll-behavior: smooth;
+    }
+    .overlay {
+      background: rgba(0,0,0,0.7);
+      backdrop-filter: blur(4px);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+    }
+    .container {
+      max-width: 900px;
+      background: rgba(20,20,20,0.4);
+      backdrop-filter: blur(6px);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 40px rgba(0,0,0,0.3);
+      animation: fadeInUp 0.8s ease-out;
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    img.profile {
+      display: block;
+      margin: 0 auto;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
+    h1, h2 {
+      text-align: center;
+      margin: 1rem 0;
+      color: #4cc9f0;
+    }
+    h2 img {
+      width: 20px;
+      vertical-align: middle;
+      margin-right: 8px;
+      filter: invert(80%) sepia(20%) saturate(500%) hue-rotate(180deg);
+    }
+    p.center {
+      text-align: center;
+      font-size: 1.1rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      background: rgba(255,255,255,0.05);
+      margin: 0.5rem 0;
+      padding: 1rem;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      transition: background 0.3s;
+    }
+    ul li:hover {
+      background: rgba(255,255,255,0.1);
+    }
+    ul li img.icon {
+      width: 28px;
+      height: 28px;
+      margin-right: 12px;
+      filter: invert(80%) sepia(20%) saturate(500%) hue-rotate(180deg);
+      transition: transform 0.3s;
+    }
+    ul li img.icon:hover {
+      transform: translateY(-3px);
+    }
+    a {
+      color: #5ecbf3;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.2s;
+    }
+    a:hover {
+      text-decoration: underline;
+      transform: scale(1.05);
+    }
+    a img:hover {
+      filter: brightness(1.2);
+    }
+    .badge-container {
+      text-align: center;
+      margin: 1rem 0;
+    }
+    .badge-container img {
+      margin: 0 4px;
+    }
+    .btn-link {
+      background: #4cc9f0;
+      color: #121212;
+      padding: 8px 16px;
+      border-radius: 6px;
+      margin: 0 5px;
+      display: inline-block;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s, transform 0.2s;
+    }
+    .btn-link:hover {
+      background: #5ecbf3;
+      transform: scale(1.05);
+    }
+    hr {
+      border: none;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      margin: 2rem 0;
+    }
+    @media (max-width: 600px) {
+      .container { padding: 1rem; }
+      ul li { flex-direction: column; align-items: flex-start; }
+      body { font-size: 1rem; }
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Steven Gersztyn</h1>
-    <p>Sr. Cloud & Infrastructure Engineer | AWS, Azure, GitHub, SSO, Security | Tech Nerd</p>
-  </header>
+  <div class="overlay">
+    <div class="container">
+      <img src="me.png" alt="Steven Gersztyn" class="profile">
 
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I’m a cloud infrastructure and security engineer with a love for AWS, Azure, identity management, SSO integrations, GitHub automation, and mentoring others. When I'm not building secure, scalable systems, I'm probably tinkering on GitHub or posting snarky-but-useful tech tips at @readonlyfansdev.
-      </p>
-    </section>
+      <h1>Hi, I’m Steven Gersztyn</h1>
+      <p class="center">Building secure, scalable, and user-focused cloud solutions</p>
 
-    <section id="projects">
-      <h2>Featured Projects</h2>
+      <hr>
+
+      <p>I’m a cloud infrastructure and security engineer with 13+ years of experience building, securing, and optimizing environments across AWS and Azure. I specialize in identity management (Okta, Azure AD), Zero Trust security (Zscaler ZPA), and simplifying complex systems into resilient, user-focused solutions.</p>
+
+      <p>Outside of work, I enjoy playing classical guitar, working on DIY projects, experimenting with new ideas in my homelab, and exploring the outdoors here in Utah. I’m passionate about continuous learning, whether it’s through technical challenges, creative projects, or time spent in nature.</p>
+
+      <p>Always learning, always building, always finding a reason to take something apart.</p>
+
+      <h2><img src="icons/server.svg"> Featured Projects</h2>
       <ul>
-        <li><a href="https://github.com/stevengersztyn/aws-sso-toolkit" target="_blank">AWS SSO Toolkit – Automate your SSO configs</a></li>
-        <li><a href="https://github.com/stevengersztyn/okta-azure-sync" target="_blank">Okta → Azure Sync Script – Identity sync tool</a></li>
-        <li><a href="https://github.com/stevengersztyn/cloud-diagrams" target="_blank">Cloud Architecture Diagrams Repo</a></li>
+        <li><img src="icons/server.svg" class="icon"><a href="https://github.com/sgersz/homelab-2025">Homelab 2025</a>&nbsp;– Secure, scalable home lab combining virtualization, containers, automation, and Zero Trust.</li>
+        <li><img src="icons/layout-dashboard.svg" class="icon"><a href="https://github.com/sgersz/observability-dashboard">Homelab Monitoring</a>&nbsp;– Real-time system & Docker metrics visualization with Prometheus + Grafana.</li>
+        <li><img src="icons/cloud.svg" class="icon"><a href="https://github.com/sgersz/-workspacecostreduction">Workspace Cost Reduction</a>&nbsp;– Cloud cost optimization migrating from AWS Workspaces to EC2 + Zscaler ZPA.</li>
+        <li><img src="icons/flowchart.svg" class="icon"><a href="https://github.com/sgersz/simplecicd">Simple CI/CD Pipeline</a>&nbsp;– Automated Docker builds using GitHub Actions.</li>
+<li><img src="icons/terminal.svg" class="icon"><a href="https://github.com/sgersz/toolbox">Toolbox</a>&nbsp;– Automation scripts for cloud, security, identity, DevOps, and IT operations.</li>
+     
       </ul>
-    </section>
+      
 
-    <section id="connect">
+      <h2><img src="icons/certificate.svg"> Certifications</h2>
+      <ul>
+        <li>AWS Certified Cloud Practitioner</li>
+        <li>AWS Certified Developer – In Progress</li>
+        <li>AWS Certified Solutions Architect – Planned</li>
+        <li>CyberArk Trustee</li>
+      </ul>
+
+      <div class="badge-container">
+        <img src="https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws" alt="AWS Badge">
+        <img src="https://img.shields.io/badge/Azure-Identity-blue?logo=microsoftazure" alt="Azure Badge">
+        <img src="https://img.shields.io/badge/Okta-Identity%20Mgmt-lightgrey?logo=okta" alt="Okta Badge">
+      </div>
+
       <h2>Connect with Me</h2>
-      <ul>
-        <li>
-          <a href="https://www.linkedin.com/in/stevengersztyn/" target="_blank">
-            <i class="fab fa-linkedin"></i> LinkedIn
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/stevengersztyn" target="_blank">
-            <i class="fab fa-github"></i> GitHub
-          </a>
-        </li>
-        <li>
-          <a href="https://x.com/readonlyfansdev" target="_blank">
-            <i class="fab fa-x-twitter"></i> X (formerly Twitter) @readonlyfansdev
-          </a>
-        </li>
-      </ul>
-    </section>
-  </main>
+      <p class="center">
+        <a href="https://www.linkedin.com/in/stevengersztyn/" class="btn-link">LinkedIn</a>
+        <a href="https://github.com/sgersz" class="btn-link">GitHub</a>
+      </p>
 
-  <footer>
-    <p>&copy; 2025 Steven Gersztyn. All rights reserved.</p>
-  </footer>
+      <p class="center">
+        <a href="https://www.linkedin.com/in/stevengersztyn/">
+          <img src="icons/linkedin.svg" alt="LinkedIn" style="width:32px; height:32px; vertical-align:middle; filter: brightness(0) invert(1); margin: 0 10px;">
+        </a>
+        <a href="https://github.com/sgersz">
+          <img src="icons/github.svg" alt="GitHub" style="width:32px; height:32px; vertical-align:middle; filter: brightness(0) invert(1); margin: 0 10px;">
+        </a>
+          <a href="https://x.com/readonlyfansdev">
+    <img src="icons/x.svg" alt="X (Twitter)" style="width:32px; height:32px; vertical-align:middle; filter: brightness(0) invert(1); margin: 0 10px;">
+  </a>
+      </p>
+
+      <hr>
+
+      <p class="center">Thanks for visiting!</p>
+    </div>
+  </div>
 </body>
 </html>
