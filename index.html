@@ -6,79 +6,79 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-cover bg-center text-gray-900 font-sans" style="background-image: url('background2.png');">
+<body class="text-gray-900 font-sans">
+  <!-- Background image container -->
+  <div class="bg-cover bg-center bg-fixed min-h-screen" style="background-image: url('background2.png');">
+    <div class="min-h-screen flex items-center justify-center px-4">
+      <div class="max-w-3xl bg-white bg-opacity-80 backdrop-blur-md shadow-lg rounded-xl p-8 space-y-6 animate-fadeIn">
+        <img src="me.png" alt="Steven Gersztyn" class="w-44 h-44 rounded-full object-cover mx-auto shadow-md">
 
+        <h1 class="text-center text-3xl font-semibold text-gray-800">Hi, I’m Steven Gersztyn</h1>
+        <p class="text-center text-lg text-gray-600">Building secure, scalable, and user-focused cloud solutions</p>
 
-  <div class="min-h-screen flex items-center justify-center px-4">
-    <div class="max-w-3xl bg-white bg-opacity-80 backdrop-blur-md shadow-lg rounded-xl p-8 space-y-6 animate-fadeIn">
-      <img src="me.png" alt="Steven Gersztyn" class="w-44 h-44 rounded-full object-cover mx-auto shadow-md">
+        <hr class="border-gray-200">
 
-      <h1 class="text-center text-3xl font-semibold text-gray-800">Hi, I’m Steven Gersztyn</h1>
-      <p class="text-center text-lg text-gray-600">Building secure, scalable, and user-focused cloud solutions</p>
+        <p>I’m a cloud infrastructure and security engineer with 13+ years of experience building, securing, and optimizing environments across AWS and Azure. I specialize in identity management (Okta, Azure AD), Zero Trust security (Zscaler ZPA), and simplifying complex systems into resilient, user-focused solutions.</p>
 
-      <hr class="border-gray-200">
+        <p>Outside of work, I enjoy playing classical guitar, working on DIY projects, experimenting with new ideas in my homelab, and exploring the outdoors here in Utah. I’m passionate about continuous learning, whether it’s through technical challenges, creative projects, or time spent in nature.</p>
 
-      <p>I’m a cloud infrastructure and security engineer with 13+ years of experience building, securing, and optimizing environments across AWS and Azure. I specialize in identity management (Okta, Azure AD), Zero Trust security (Zscaler ZPA), and simplifying complex systems into resilient, user-focused solutions.</p>
+        <p>Always learning, always building, always finding a reason to take something apart.</p>
 
-      <p>Outside of work, I enjoy playing classical guitar, working on DIY projects, experimenting with new ideas in my homelab, and exploring the outdoors here in Utah. I’m passionate about continuous learning, whether it’s through technical challenges, creative projects, or time spent in nature.</p>
+        <h2 class="text-2xl font-semibold text-gray-700 flex items-center justify-center gap-2">
+          <img src="icons/server.svg" alt="Server Icon" class="w-5 inline-block"> Featured Projects
+        </h2>
+        <ul class="space-y-2">
+          <li class="flex items-center bg-gray-50 p-4 rounded-lg hover:bg-gray-100">
+            <img src="icons/server.svg" class="w-7 mr-3"> <a href="https://github.com/sgersz/homelab-2025" class="font-semibold text-blue-600 hover:underline">Homelab 2025</a> – Secure, scalable home lab combining virtualization, containers, automation, and Zero Trust.
+          </li>
+          <li class="flex items-center bg-gray-50 p-4 rounded-lg hover:bg-gray-100">
+            <img src="icons/layout-dashboard.svg" class="w-7 mr-3"> <a href="https://github.com/sgersz/observability-dashboard" class="font-semibold text-blue-600 hover:underline">Homelab Monitoring</a> – Real-time system & Docker metrics visualization with Prometheus + Grafana.
+          </li>
+          <li class="flex items-center bg-gray-50 p-4 rounded-lg hover:bg-gray-100">
+            <img src="icons/cloud.svg" class="w-7 mr-3"> <a href="https://github.com/sgersz/-workspacecostreduction" class="font-semibold text-blue-600 hover:underline">Workspace Cost Reduction</a> – Cloud cost optimization migrating from AWS Workspaces to EC2 + Zscaler ZPA.
+          </li>
+          <li class="flex items-center bg-gray-50 p-4 rounded-lg hover:bg-gray-100">
+            <img src="icons/flowchart.svg" class="w-7 mr-3"> <a href="https://github.com/sgersz/simplecicd" class="font-semibold text-blue-600 hover:underline">Simple CI/CD Pipeline</a> – Automated Docker builds using GitHub Actions.
+          </li>
+          <li class="flex items-center bg-gray-50 p-4 rounded-lg hover:bg-gray-100">
+            <img src="icons/terminal.svg" class="w-7 mr-3"> <a href="https://github.com/sgersz/toolbox" class="font-semibold text-blue-600 hover:underline">Toolbox</a> – Automation scripts for cloud, security, identity, DevOps, and IT operations.
+          </li>
+        </ul>
 
-      <p>Always learning, always building, always finding a reason to take something apart.</p>
+        <h2 class="text-2xl font-semibold text-gray-700 flex items-center justify-center gap-2">
+          <img src="icons/certificate.svg" alt="Certificate Icon" class="w-5 inline-block"> Certifications
+        </h2>
+        <ul class="list-disc list-inside space-y-1 text-gray-700">
+          <li>AWS Certified Cloud Practitioner</li>
+          <li>AWS Certified Developer – In Progress</li>
+          <li>AWS Certified Solutions Architect – Planned</li>
+          <li>CyberArk Trustee</li>
+        </ul>
 
-      <h2 class="text-2xl font-semibold text-gray-700 flex items-center justify-center gap-2">
-        <img src="icons/server.svg" alt="Server Icon" class="w-5 inline-block"> Featured Projects
-      </h2>
-      <ul class="space-y-2">
-        <li class="flex items-center bg-gray-50 p-4 rounded-lg hover:bg-gray-100">
-          <img src="icons/server.svg" class="w-7 mr-3"> <a href="https://github.com/sgersz/homelab-2025" class="font-semibold text-blue-600 hover:underline">Homelab 2025</a> – Secure, scalable home lab combining virtualization, containers, automation, and Zero Trust.
-        </li>
-        <li class="flex items-center bg-gray-50 p-4 rounded-lg hover:bg-gray-100">
-          <img src="icons/layout-dashboard.svg" class="w-7 mr-3"> <a href="https://github.com/sgersz/observability-dashboard" class="font-semibold text-blue-600 hover:underline">Homelab Monitoring</a> – Real-time system & Docker metrics visualization with Prometheus + Grafana.
-        </li>
-        <li class="flex items-center bg-gray-50 p-4 rounded-lg hover:bg-gray-100">
-          <img src="icons/cloud.svg" class="w-7 mr-3"> <a href="https://github.com/sgersz/-workspacecostreduction" class="font-semibold text-blue-600 hover:underline">Workspace Cost Reduction</a> – Cloud cost optimization migrating from AWS Workspaces to EC2 + Zscaler ZPA.
-        </li>
-        <li class="flex items-center bg-gray-50 p-4 rounded-lg hover:bg-gray-100">
-          <img src="icons/flowchart.svg" class="w-7 mr-3"> <a href="https://github.com/sgersz/simplecicd" class="font-semibold text-blue-600 hover:underline">Simple CI/CD Pipeline</a> – Automated Docker builds using GitHub Actions.
-        </li>
-        <li class="flex items-center bg-gray-50 p-4 rounded-lg hover:bg-gray-100">
-          <img src="icons/terminal.svg" class="w-7 mr-3"> <a href="https://github.com/sgersz/toolbox" class="font-semibold text-blue-600 hover:underline">Toolbox</a> – Automation scripts for cloud, security, identity, DevOps, and IT operations.
-        </li>
-      </ul>
+        <div class="flex justify-center space-x-2">
+          <img src="https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws" alt="AWS Badge">
+          <img src="https://img.shields.io/badge/Azure-Identity-blue?logo=microsoftazure" alt="Azure Badge">
+          <img src="https://img.shields.io/badge/Okta-Identity%20Mgmt-lightgrey?logo=okta" alt="Okta Badge">
+        </div>
 
-      <h2 class="text-2xl font-semibold text-gray-700 flex items-center justify-center gap-2">
-        <img src="icons/certificate.svg" alt="Certificate Icon" class="w-5 inline-block"> Certifications
-      </h2>
-      <ul class="list-disc list-inside space-y-1 text-gray-700">
-        <li>AWS Certified Cloud Practitioner</li>
-        <li>AWS Certified Developer – In Progress</li>
-        <li>AWS Certified Solutions Architect – Planned</li>
-        <li>CyberArk Trustee</li>
-      </ul>
+        <h2 class="text-2xl font-semibold text-gray-700 text-center">Connect with Me</h2>
+        <div class="text-center space-x-4">
+          <a href="https://www.linkedin.com/in/stevengersztyn/" class="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition">LinkedIn</a>
+          <a href="https://github.com/sgersz" class="inline-block bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-900 transition">GitHub</a>
+          <a href="https://x.com/readonlyfansdev" class="inline-block bg-black text-white py-2 px-4 rounded hover:bg-gray-800 transition">X (Twitter)</a>
+        </div>
 
-      <div class="flex justify-center space-x-2">
-        <img src="https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws" alt="AWS Badge">
-        <img src="https://img.shields.io/badge/Azure-Identity-blue?logo=microsoftazure" alt="Azure Badge">
-        <img src="https://img.shields.io/badge/Okta-Identity%20Mgmt-lightgrey?logo=okta" alt="Okta Badge">
+        <div class="flex justify-center space-x-4 mt-4">
+          <a href="https://www.linkedin.com/in/stevengersztyn/"><img src="icons/linkedin.svg" class="w-8"></a>
+          <a href="https://github.com/sgersz"><img src="icons/github.svg" class="w-8"></a>
+          <a href="https://x.com/readonlyfansdev"><img src="icons/x.svg" class="w-8"></a>
+        </div>
+
+        <hr class="border-gray-200">
+
+        <p class="text-center text-gray-500">Thanks for visiting!</p>
       </div>
-
-      <h2 class="text-2xl font-semibold text-gray-700 text-center">Connect with Me</h2>
-      <div class="text-center space-x-4">
-        <a href="https://www.linkedin.com/in/stevengersztyn/" class="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition">LinkedIn</a>
-        <a href="https://github.com/sgersz" class="inline-block bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-900 transition">GitHub</a>
-        <a href="https://x.com/readonlyfansdev" class="inline-block bg-black text-white py-2 px-4 rounded hover:bg-gray-800 transition">X (Twitter)</a>
-      </div>
-
-      <div class="flex justify-center space-x-4 mt-4">
-        <a href="https://www.linkedin.com/in/stevengersztyn/"><img src="icons/linkedin.svg" class="w-8"></a>
-        <a href="https://github.com/sgersz"><img src="icons/github.svg" class="w-8"></a>
-        <a href="https://x.com/readonlyfansdev"><img src="icons/x.svg" class="w-8"></a>
-      </div>
-
-      <hr class="border-gray-200">
-
-      <p class="text-center text-gray-500">Thanks for visiting!</p>
     </div>
   </div>
-
 </body>
 </html>
