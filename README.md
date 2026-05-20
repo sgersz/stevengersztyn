@@ -4,9 +4,11 @@
 
 I work at the intersection of cloud infrastructure, AI governance, identity, and security.
 
-Over the last 13+ years, I’ve built and secured enterprise systems across AWS, Azure, GCP, and OCI — from core identity platforms and Zero Trust access patterns to the practical rollout of GenAI tools in real organizations.
+Over the last 13+ years, I’ve built and secured enterprise systems across AWS, Azure, GCP, and OCI, from core identity platforms and Zero Trust access patterns to the practical rollout of GenAI tools in real organizations.
 
 Today, my focus is helping companies adopt AI without skipping the hard parts: access control, data boundaries, compliance, deployment guardrails, and the operational reality of making these tools safe and useful at scale.
+
+Outside of work, I spend time with family, keep up with current tech, run local and home LLM infrastructure, and play classical guitar, usually with at least one side project in motion.
 
 ## Focus Areas
 
@@ -17,10 +19,10 @@ Today, my focus is helping companies adopt AI without skipping the hard parts: a
 
 ## Selected Projects
 
-- [AI Home Lab — Part Deux](https://github.com/sgersz/ai-home-lab-part-deux) — A local-first, privacy-respecting multi-agent AI lab built around cloud orchestration, local inference, monitoring, task routing, and persistent knowledge.
-- [Azure Bot Teams Integration](https://github.com/sgersz/azureBotTeams) — A cross-cloud integration connecting Dialogflow CX, Azure Bot Services, and Microsoft Teams.
-- [Homelab 2025](https://github.com/sgersz/homelab-2025) — A segmented, security-minded home lab focused on virtualization, containers, automation, networking, and Zero Trust-style design.
-- [Toolbox](https://github.com/sgersz/toolbox) — A working collection of scripts for cloud operations, identity, security, GitHub automation, endpoint management, and homelab support.
+- [AI Home Lab - Part Deux](https://github.com/sgersz/ai-home-lab-part-deux): A local-first, privacy-respecting multi-agent AI lab built around cloud orchestration, local inference, monitoring, task routing, and persistent knowledge.
+- [Azure Bot Teams Integration](https://github.com/sgersz/azureBotTeams): A cross-cloud integration connecting Dialogflow CX, Azure Bot Services, and Microsoft Teams.
+- [Homelab 2025](https://github.com/sgersz/homelab-2025): A segmented, security-minded home lab focused on virtualization, containers, automation, networking, and Zero Trust-style design.
+- [Toolbox](https://github.com/sgersz/toolbox): A working collection of scripts for cloud operations, identity, security, GitHub automation, endpoint management, and homelab support.
 
 ## Certifications
 
